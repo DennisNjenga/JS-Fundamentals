@@ -1,8 +1,8 @@
 let randomArgs = ["John", "Sam", "Peter", "Lucy"];
 
-if(!randomArgs.length){
+if(randomArgs.length === 0){
     console.log("No argument");
-}else if(randomArgs.length == 1){
+}else if(randomArgs.length === 1){
     console.log("Argument found");
 }else{
     console.log("Arguments found");
