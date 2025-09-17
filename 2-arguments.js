@@ -1,4 +1,4 @@
-let randomArgs = ["John", "Sam", "Peter", "Lucy"];
+const randomArgs = process.argv.slice(2);
 
 if(randomArgs.length === 0){
     console.log("No argument");
