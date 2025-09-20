@@ -7,9 +7,3 @@ if (isNaN(size)) {
     console.log('X'.repeat(size));
   }
 }
-
-
-let name = "Dennis";
-for(let i=0; i<10;i++){
-console.log(name.repeat(10));
-}
